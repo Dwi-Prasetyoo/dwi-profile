@@ -1,0 +1,72 @@
+body {
+   background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileimage {
+    width: 150px;     
+    height: 150px;     
+    object-fit: cover; 
+}
+.profile h3 {
+    color: white;
+}
+.profile p {
+    color: white;
+    transform: translateY(-10px);
+}
+.biodata {
+     background: linear-gradient(#ffffff 0%, #ffffffd7 40%, #ffffff00 100%);
+     padding-bottom: 80px;
+     margin-top: -1px;
+     padding-top: 150px;
+}
+.row {
+    padding: 0px 20px;
+}
+.intership {
+    padding-top: 180px;
+}
+.footer {
+    background-color: white;
+    margin-top: -1px;
+    padding-bottom: 20px;
+}
+.contact a {
+    color:black;
+    font-size:30px;
+}
+.watermark {
+    padding-top: 30px;
+}
+@media (max-width: 768px) {
+    .profile {
+        margin-top: 150px; 
+    }
+    .biodata {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .intership {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+    .row {
+        padding: 0px 10px;
+    }
+    .contact {
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #7420d3 !important;
+}
