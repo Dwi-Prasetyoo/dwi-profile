@@ -70,3 +70,22 @@ body {
     font-size: 28px;
     color: #7420d3 !important;
 }
+.card {
+    transition: transform 0,3s ease;
+}
+.card.hover {
+    transform: translate(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn-danger:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);
+}
+.contact a{
+    display:inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.contact a:hover{
+    transform: translateY(-5px) scale(1.1);
+    color:#9a08dd;
+}
