@@ -1,7 +1,3 @@
-/* KODE X-RAY SEMENTARA UNTUK MENCARI BUG */
-* {
-    outline: 1px solid red !important;
-}
 body {
    background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
 }
@@ -26,8 +22,9 @@ body {
 }
 .navbar {
     z-index: 1030 !important; 
-    position: sticky !important;
+    position: fixed !important;
     top: 0;
+    width:100%;
     z-index: 999 !important;
     background-color: #ffffff !important;
 }
